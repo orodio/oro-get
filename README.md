@@ -6,7 +6,7 @@ get("foo")(a) // "bar"
 
 var b = { foo:{ bar:9 } }
 get("foo|bar")(b)     // 9
-get(["foo", "bar])(b) // 9
+get(["foo", "bar"])(b) // 9
 
 var c = [{ foo:1 }, { foo:2 }, { foo:3 }, { foo:4 }]
 get("2|foo")(c)    // 3
