@@ -1,0 +1,14 @@
+{
+  "name": "oro-get",
+  "version": "0.0.0",
+  "description": "get nested things",
+  "main": "index.js",
+  "repository": "github.com/orodio/oro-get",
+  "author": "James Bjorkman <james@bjorkman.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "oro-cursor": "^1.0.0",
+    "oro-head": "^1.0.0",
+    "oro-tail": "^1.0.0"
+  }
+}
